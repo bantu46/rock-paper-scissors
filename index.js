@@ -14,4 +14,14 @@ function getComputerChoice(){
     }
 }
 
-console.log(getComputerChoice());
+// console.log(getComputerChoice());
+
+// THE LOGIC TO GET THE HUMAN CHOICE
+// SET THE HUMAN CHOICE TO LOWER CASE 
+function getHumanChoice(){
+    let userChoice = prompt("Choose Rock, Paper, or Scissors: ", "User Choice");
+    return userChoice.toLowerCase();
+}
+
+// getHumanChoice();
+console.log(getHumanChoice());
